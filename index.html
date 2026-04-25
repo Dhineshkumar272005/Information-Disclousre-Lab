@@ -135,18 +135,18 @@
         </div>
         <div class="terminal-line">
             <span class="prompt">⤷</span>
-            <span class="comment">exposed assets:</span> <span style="color:#0ff;">/simple.txt  |  /config.ini  |  /.git/</span> <span class="blink">🔴</span>
+            <span class="comment">exposed assets:</span> <span style="color:#0ff;">/simple.txt  |  /config.ini  |  git_config</span> <span class="blink">🔴</span>
         </div>
     </div>
     <div class="code-block">
         <span style="color:#fa0;">$</span> curl https://infodisclose.netlify.app/config.ini<br>
         <span style="color:#0fa;">→ DB_PASS, API_SECRET leaked</span><br><br>
-        <span style="color:#fa0;">$</span> curl https://infodisclose.netlify.app/.git/config<br>
+        <span style="color:#fa0;">$</span> curl https://infodisclose.netlify.appgit_configconfig<br>
         <span style="color:#0fa;">→ repository metadata exposed</span>
     </div>
     <div class="warning-box">
         ⚡ ETHICAL HACKING LAB ONLY ⚡<br>
-        <strong>/simple.txt</strong>, <strong>/config.ini</strong>, and <strong>/.git/</strong> are intentionally world-readable.<br>
+        <strong>/simple.txt</strong>, <strong>/config.ini</strong>, and <strong>git_config</strong> are intentionally world-readable.<br>
         No direct links – discover via brute‑force or directory scanning.
     </div>
     <footer>
@@ -155,7 +155,7 @@
 </div>
 <script>
     document.getElementById('displayUrl').innerText = window.location.origin;
-    console.log("%c🔓 LAB ACTIVE: /config.ini , /.git/ , /simple.txt", "color: #0ff; font-size: 14px;");
+    console.log("%c🔓 LAB ACTIVE: /config.ini , git_config , /simple.txt", "color: #0ff; font-size: 14px;");
 </script>
 </body>
 </html>
