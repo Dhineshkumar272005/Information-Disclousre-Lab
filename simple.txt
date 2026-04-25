@@ -1,0 +1,7 @@
+╔══════════════════════════════════════════════════╗
+║  🔓 [CLASSIFIED]  LAB DISCLOSURE  🔓            ║
+╚══════════════════════════════════════════════════╝
+
+DB_USER = "root_lab"
+DB_PASS = "Cyberpunk#2147"
+API_KEY = "sk_live_7f8d3a9b2c4e"
