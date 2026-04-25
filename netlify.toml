@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/exposed-env"
+  to = "/.env"
+  status = 200
